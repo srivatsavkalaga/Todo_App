@@ -9,7 +9,7 @@ export const Header = () => {
       </div>
       <div className='themeSelector'>
         <span className='light activeTheme'></span>
-        <span className='medium'></span>
+        <span className='medium' ></span>
         <span className='dark'></span>
         <span className='gOne'></span>
         <span className='gTwo'></span>
