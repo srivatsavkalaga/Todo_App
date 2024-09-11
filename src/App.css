@@ -15,7 +15,7 @@ header{
   justify-content: space-between;
   padding: 15px;
   margin-bottom: 70px;
-  background-color: #FFFFFF;
+  background-color:white;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
@@ -55,16 +55,14 @@ header .themeSelector .activeTheme{
 .addTask {
   padding: 20px 15px;
   border-radius: 5px;
-  background-color: #FFFFFF;
-  max-width: 500px;
+  background-color:gold;
+  max-width: 300px;
+  height:150px;
   margin: 20px auto;
   box-shadow: var(--box-shadow);
 }
 
-.addTask form{
-  display: flex;
-  gap: 7px;
-}
+
 
 .addTask form input{
   flex-grow: 1;
@@ -79,13 +77,14 @@ header .themeSelector .activeTheme{
 }
 
 .addTask form button{
-  background-color: #03ba5c;
+  background-color:green;
   color: #FFFFFF;
   border: none;
   padding: 5px 20px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
+  margin-left: 100px;
 }
 
 .addTask form button:hover{
@@ -95,7 +94,7 @@ header .themeSelector .activeTheme{
 .showTask{
   padding: 20px 15px;
   border-radius: 5px;
-  background-color: #FFFFFF;
+  background-color: white;
   margin: 20px auto;
   box-shadow: var(--box-shadow);
 }
